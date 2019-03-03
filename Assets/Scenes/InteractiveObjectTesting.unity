@@ -207,13 +207,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raycastOrigin: {fileID: 152292047}
   maxRange: 2.5
+--- !u!114 &196325276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196325274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99a070ed66882f4794377c7f469f4d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectLookedAtInteractive: {fileID: 196325275}
 --- !u!43 &210535700
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13004
+  m_Name: pb_Mesh5514
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -403,7 +416,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13040
+  m_Name: pb_Mesh5568
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9297,7 +9310,7 @@ GameObject:
   - component: {fileID: 569981541}
   - component: {fileID: 569981540}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Door 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9822,8 +9835,9 @@ GameObject:
   - component: {fileID: 779032591}
   - component: {fileID: 779032590}
   - component: {fileID: 779032589}
+  - component: {fileID: 779032593}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: InteractiveObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9901,13 +9915,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &779032593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779032588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1cdc02df04feed4e977e2b518e2f95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &857129496
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13024
+  m_Name: pb_Mesh5534
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
