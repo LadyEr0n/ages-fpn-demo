@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe499187c6b432f42809ead4321635bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayText: Toggle the cube?
-  objectToToggle: {fileID: 1651333475}
+  displayText: Turn on light
+  objectToToggle: {fileID: 1642647855}
   isReusable: 1
 --- !u!82 &114109263
 AudioSource:
@@ -9933,7 +9933,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5686
+  m_Name: pb_Mesh13256
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11431,7 +11431,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5730
+  m_Name: pb_Mesh13300
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11684,12 +11684,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1651333475 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5095741355301856291, guid: 6b679804f01300746818fc00afd917d0,
-    type: 3}
-  m_PrefabInstance: {fileID: 5095741354804771887}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1690663312
 GameObject:
   m_ObjectHideFlags: 0
