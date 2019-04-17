@@ -858,7 +858,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1308
+  m_Name: pb_Mesh-1196
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1565,6 +1565,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 592babf790dd4f347966574db5a17d0a,
         type: 3}
+    - target: {fileID: 8138679383079409600, guid: 4025e5533244d15489f6a7fe777985b7,
+        type: 3}
+      propertyPath: description
+      value: This is a note
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4025e5533244d15489f6a7fe777985b7, type: 3}
 --- !u!43 &335277430
@@ -1573,7 +1578,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1330
+  m_Name: pb_Mesh-1218
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -12445,7 +12450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000092161345, y: 0.0000014247929}
+  m_AnchoredPosition: {x: 0.0000092161345, y: 0.0000013599789}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &949057743
@@ -12628,6 +12633,8 @@ MonoBehaviour:
   inventoryMenuItemTogglePrefab: {fileID: 1629534258775279681, guid: 4ae7dfc8d1efdd54680f4c4ffea05bb9,
     type: 3}
   inventoryListContentArea: {fileID: 949057742}
+  itemLabelText: {fileID: 1830575184}
+  descriptionAreaText: {fileID: 1991196023}
 --- !u!82 &949776446
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13017,7 +13024,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1364
+  m_Name: pb_Mesh-1252
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -13398,7 +13405,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1334
+  m_Name: pb_Mesh-1222
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14287,7 +14294,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 48
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 48
     m_Alignment: 4
@@ -14296,7 +14303,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Item
+  m_Text: 
 --- !u!222 &1830575185
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14613,7 +14620,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Items you have collected are displayed to the left.
+
+
+    Select an item for more information about the item.'
 --- !u!222 &1991196024
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15609,5 +15619,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fcf9986c321e48145b82688e9094496b,
         type: 3}
+    - target: {fileID: 8138679383079409600, guid: 4025e5533244d15489f6a7fe777985b7,
+        type: 3}
+      propertyPath: description
+      value: This is a key
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4025e5533244d15489f6a7fe777985b7, type: 3}
