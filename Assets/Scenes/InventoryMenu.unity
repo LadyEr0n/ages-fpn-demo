@@ -1528,7 +1528,8 @@ PrefabInstance:
     - target: {fileID: 8138679383079409600, guid: 4025e5533244d15489f6a7fe777985b7,
         type: 3}
       propertyPath: description
-      value: This is a note
+      value: At the end of this maze is a room filled with treasure. Think you can
+        find it?
       objectReference: {fileID: 0}
     - target: {fileID: 8138679383079409614, guid: 4025e5533244d15489f6a7fe777985b7,
         type: 3}
